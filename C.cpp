@@ -18,9 +18,7 @@
 		cin>>n;
 		if(n == 1)
 			return cout<<1 , 0;
-		ll ans = 0;
-		rep(i,1,n+1)
-			ans+ = (2*i);
+		ll ans = n * ( n+1 );
 		cout<<ans;
     return 0; 
 } 	
